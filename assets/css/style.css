@@ -188,6 +188,7 @@ header .navbar ul li a:hover {
   gap: 1.5rem;
   min-height: 100vh;
   align-items: center;
+  height: 100vh;
 }
 .home #particles-js {
   position: absolute;
@@ -208,6 +209,7 @@ header .navbar ul li a:hover {
   flex: 1 1 40rem;
   padding-top: 1rem;
   z-index: 1;
+  height: 100%;
 }
 .home .image {
   flex: 1 1 40rem;
@@ -234,7 +236,7 @@ header .navbar ul li a:hover {
   background-clip: text;
   color: transparent; /* Makes the text transparent so the background gradient shows through */
   drop-shadow: 0 2px 2px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
-  margin-bottom: 1rem;
+  margin: 0;
 }
 .home .content h2 span {
   font-size: 5rem;
