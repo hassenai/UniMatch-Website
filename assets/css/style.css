@@ -620,42 +620,39 @@ header .navbar ul li a:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 2.5rem 5%;
-    background: #0d1b2a; /* Dark background for a tech feel */
+    padding: 2rem 5%;
+    background: #0d1b2a;
     color: #ffffff;
     text-align: center;
 }
 
 .home .content h2 {
-    font-family: 'Poppins', sans-serif; /* Modern and clean font */
-    font-size: 3.2rem; /* Increased size */
-    font-weight: 600;
-    color: #e0f7fa;
-    margin-bottom: 1.2rem;
-}
-
-.home .content h2 .highlight {
-    font-family: 'Caveat', cursive; /* Handwritten style for emphasis */
-    color: #03a9f4;
-    text-decoration: underline;
-    font-size: 3.6rem; /* Increased size */
+    font-family: 'Times New Roman', serif; /* Use a serif font for a classic yet modern look */
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: bold;
+    background: linear-gradient(to right, #7dd3fc, #3b82f6); /* Gradient from sky-blue to deeper blue */
+    background-clip: text;
+    color: transparent; /* Makes the text transparent so the background gradient shows through */
+    drop-shadow: 0 2px 2px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    margin-bottom: 1rem;
 }
 
 .home .content p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.4rem; /* Increased size */
-    line-height: 1.8;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
     color: #b0bec5;
     max-width: 600px;
-    margin-bottom: 1.8rem;
+    margin-bottom: 1.5rem;
 }
 
 .home .btn {
     display: inline-block;
-    padding: 1rem 2.5rem; /* Larger padding for button */
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.2rem; /* Increased size */
-    font-weight: 600;
+    padding: 0.8rem 2rem;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
     color: #0d1b2a;
     background: #03a9f4;
     border-radius: 50px;
