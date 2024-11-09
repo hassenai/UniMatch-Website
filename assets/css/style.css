@@ -184,3 +184,70 @@ header .navbar ul li a:hover {
   background: #1a3aa0;
   box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
 }
+
+/* ----------------------- */
+
+/* Home Section */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 5%;
+    background: #0d1b2a; /* Dark background for a tech feel */
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+
+.home .content h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #e0f7fa;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.home .content h2 .highlight {
+    color: #03a9f4;
+    text-decoration: underline;
+}
+
+.home .content p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #b0bec5;
+    max-width: 500px;
+}
+
+.home .btn {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0d1b2a;
+    background: #03a9f4;
+    border-radius: 50px;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+
+.home .btn:hover {
+    background: #0288d1;
+    color: #ffffff;
+}
+
+/* Particle Background */
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: url('./assets/images/particle-bg.png') no-repeat center center / cover;
+    opacity: 0.8;
+}
+
