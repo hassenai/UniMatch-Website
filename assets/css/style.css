@@ -178,7 +178,9 @@ header .navbar ul li a:hover {
 }
 /* hamburger icon ends */
 
-/* hero section starts*/
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Caveat:wght@500&display=swap');
+/* Home section starts*/
 .home {
   position: relative;
   display: flex;
@@ -225,6 +227,14 @@ header .navbar ul li a:hover {
   font-size: 5rem;
   font-weight: 800;
   color: #002057;
+  font-family: 'Times New Roman', serif; /* Use a serif font for a classic yet modern look */
+  font-style: italic;
+  font-weight: bold;
+  background: linear-gradient(to right, #7dd3fc, #3b82f6); /* Gradient from sky-blue to deeper blue */
+  background-clip: text;
+  color: transparent; /* Makes the text transparent so the background gradient shows through */
+  drop-shadow: 0 2px 2px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  margin-bottom: 1rem;
 }
 .home .content h2 span {
   font-size: 5rem;
@@ -233,9 +243,13 @@ header .navbar ul li a:hover {
 }
 .home .content p {
   font-size: 2.5rem;
-  color: #000;
   font-weight: 600;
   padding: 1rem 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #b0bec5;
+  max-width: 600px;
+  margin-bottom: 1.5rem;
 }
 .home .content p span {
   font-size: 2.5rem;
@@ -248,12 +262,19 @@ header .navbar ul li a:hover {
   position: absolute;
   line-height: 0;
   padding: 1.6rem 3rem;
-  border-radius: 4em;
   transition: 0.5s;
-  color: #fff;
-  background: #2506ad;
   box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
   font-family: "Nunito", sans-serif;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #0d1b2a;
+  background: #03a9f4;
+  border-radius: 50px;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+  text-decoration: none;  
 }
 .home .btn span {
   font-weight: 700;
@@ -267,6 +288,8 @@ header .navbar ul li a:hover {
 }
 .home .btn:hover {
   background: #1a047e;
+  background: #0288d1;
+  color: #ffffff;
 }
 .home .btn:hover i {
   transform: translateX(5px);
