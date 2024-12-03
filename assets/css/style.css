@@ -330,6 +330,68 @@ header .navbar ul li a:hover {
 .social-icons a.instagram:hover {
   background-color: #ee00da;
 }
+
+.pdf-guide {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex; /* Align contents vertically */
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center elements horizontally */
+}
+
+.pdf-guide .button-container {
+  margin-top: 1.5rem; /* Space between the image and the button */
+  width: 100%; /* Ensures alignment consistency */
+  display: flex;
+  justify-content: center; /* Center the button */
+}
+
+
+.pdf-guide h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.pdf-guide img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.pdf-guide img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.pdf-guide .btn {
+  padding: 2rem 3rem; /* Match padding from provided style */
+  background-color: #1ED9C6; /* Brand color */
+  color: #fff;
+  border-radius: 8px; /* Slightly rounded corners */
+  font-weight: bold;
+  text-decoration: none; /* Remove underline */
+  transition: 0.3s transform, background-color 0.3s; /* Smooth hover effect */
+  font-size: 1.2rem; /* Font size to match the style */
+  display: inline-block;
+}
+
+.pdf-guide .btn:hover {
+  background-color: #002057; /* Brand color variation on hover */
+  transform: scale(1.1); /* Slight growth effect on hover */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
 /* social icons end */
 
 /* hero media queries starts*/
