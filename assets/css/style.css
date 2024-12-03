@@ -185,6 +185,7 @@ header .navbar ul li a:hover {
   align-items: center;
   justify-content: space-between;
   height: 10vh;
+  margin-bottom: 240px;
 }
 .home #particles-js {
   position: absolute;
