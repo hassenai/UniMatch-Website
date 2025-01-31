@@ -413,6 +413,22 @@ header .navbar ul li a:hover {
     font-size: 2.2rem;
   }
 }
+
+/* Fix for mobile screens */
+@media (max-width: 768px) {
+  /* Adjust button padding and font size */
+  .pdf-guide .btn {
+    padding: 1.5rem 2rem;
+    font-size: 1.4rem;
+    white-space: nowrap;
+  }
+
+  /* Increase guide picture size */
+  .pdf-guide img {
+    max-width: 80%;
+    height: auto;
+  }
+}
 /* hero media queries ends*/
 /* hero section end */
 
