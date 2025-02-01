@@ -414,19 +414,35 @@ header .navbar ul li a:hover {
   }
 }
 
-/* Fix for mobile screens */
-@media (max-width: 768px) {
-  /* Adjust button padding and font size */
-  .pdf-guide .btn {
-    padding: 1.5rem 2rem;
-    font-size: 1.4rem;
-    white-space: nowrap;
+/* Adjustments for screens less than 600px */
+@media (max-width: 600px) {
+  .home {
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center-align items */
+    text-align: center; /* Center-align text */
+    margin-bottom: 0; /* Remove extra margin */
   }
 
-  /* Increase guide picture size */
+  .home .content {
+    order: 1; /* Ensure content (h2, p, button) comes first */
+    margin-bottom: 2rem; /* Add space between content and PDF guide */
+  }
+
+  .pdf-guide {
+    order: 2; /* Move PDF guide section to the bottom */
+    margin-top: 2rem; /* Add space between content and PDF guide */
+    max-width: 100%; /* Allow full width for the PDF guide */
+  }
+
   .pdf-guide img {
-    max-width: 80%;
-    height: auto;
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .pdf-guide .btn {
+    padding: 1.5rem 2rem; /* Adjust button padding for smaller screens */
+    font-size: 1.4rem; /* Adjust font size for better readability */
+    white-space: nowrap; /* Prevent text from wrapping */
   }
 }
 
