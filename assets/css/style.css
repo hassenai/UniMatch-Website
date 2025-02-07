@@ -185,7 +185,7 @@ header .navbar ul li a:hover {
   align-items: center;
   justify-content: space-between;
   height: 10vh;
-  margin-bottom: 240px;
+  margin-bottom: 50px;
 }
 .home #particles-js {
   position: absolute;
@@ -414,19 +414,28 @@ header .navbar ul li a:hover {
   }
 }
 
-/* Fix for mobile screens */
+/* Home section adjustments for smaller devices */
 @media (max-width: 768px) {
-  /* Adjust button padding and font size */
-  .pdf-guide .btn {
-    padding: 1.5rem 2rem;
-    font-size: 1.4rem;
-    white-space: nowrap;
+  .home {
+    margin-top: 30px;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center-align items */
+    min-height: auto; /* Allow height to adjust based on content */
+    padding-bottom: 700px; /* Add padding at the bottom to prevent overlap */
+    margin-bottom: 130px; /* Add margin at the bottom to prevent overlap */
   }
 
-  /* Increase guide picture size */
   .pdf-guide img {
-    max-width: 80%;
-    height: auto;
+    padding-top: 400px;
+  }
+
+  .pdf-guide img {
+    max-width: 200px;
+    
+  }
+
+  .pdf-guide .btn {
+    padding: 1.5rem 2.5rem; /* Adjust padding for smaller screens */
   }
 }
 /* hero media queries ends*/
