@@ -417,7 +417,7 @@ header .navbar ul li a:hover {
 /* Home section adjustments for smaller devices */
 @media (max-width: 768px) {
   .home {
-    margin-top: 30px;
+    margin-top: 50px;
     flex-direction: column; /* Stack content vertically */
     align-items: center; /* Center-align items */
     min-height: auto; /* Allow height to adjust based on content */
