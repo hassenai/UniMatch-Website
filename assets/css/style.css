@@ -960,4 +960,9 @@ p a:hover {
 #scroll-top.active {
   top: calc(100% - 12rem);
 }
+
+.apply-heading {
+  padding-top: 4rem;
+}
+
 /* scroll top ends */
